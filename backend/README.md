@@ -1,211 +1,159 @@
-# [Vue-Black Dashboard](https://demos.creative-tim.com/vue-black-dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=Black%20Dashboard%20by%20Creative%20Tim&url=https%3A%2F%2Fdemos.creative-tim.com%2Fblack-dashboard%2Fexamples%2Fdashboard.html&via=CreativeTim)
+# CoreUI Free Vue Bootstrap Admin Template
 
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%20Vue%20Admin%20Template%20&url=http://coreui.io/vue/&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+[![NPM][npm-coreui-vue-badge-latest]][npm-coreui-vue]
+[![Downloads](https://img.shields.io/npm/dm/@coreui/vue.svg?style=flat-square)][coreui]
+[![Vue](https://img.shields.io/badge/Vue-^2.6.11-brightgreen.svg?style=flat-square)][coreui]
 
- ![version](https://img.shields.io/badge/version-1.1.1-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/black-dashboard/issues.svg?maxAge=2592000)](https://github.com/creativetimofficial/black-dashboard/issues/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/black-dashboard/issues.svg?maxAge=2592000)](https://github.com/creativetimofficial/black-dashboard/issues/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+[![Project check](https://github.com/coreui/coreui-free-vue-admin-template/actions/workflows/project-check.yml/badge.svg)](https://github.com/coreui/coreui-free-vue-admin-template/actions/workflows/project-check.yml)
+[![Daily project check](https://github.com/coreui/coreui-free-vue-admin-template/actions/workflows/daily-project-check.yml/badge.svg)](https://github.com/coreui/coreui-free-vue-admin-template/actions/workflows/daily-project-check.yml)
 
+[npm-coreui-vue]: https://www.npmjs.com/package/@coreui/vue
+[npm-coreui-vue-badge-latest]: https://img.shields.io/npm/v/@coreui/vue/latest?style=flat-square&color=brightgreen  
+[coreui]: https://coreui.io/vue
 
-![Product Gif](https://github.com/creativetimofficial/vue-black-dashboard/blob/live-demo/src/assets/demo/product-gif.gif?raw=true)
+![Template](https://coreui.io/images/github/vue-free-template-3.gif)
 
-**Vue Black Dashboard** is a beautiful Bootstrap 4 Admin Dashboard with a huge number of components built to fit together and look amazing. If you are looking for a tool to manage and visualize data about your business, this dashboard is the thing for you. It combines colors that are easy on the eye, spacious cards, beautiful typography, and graphics.
+## Description
 
-**Vue Black Dashboard** comes packed with all plugins that you might need inside a project and documentation on how to get started. It is light and easy to use, and also very powerful.
+Why we decided to create CoreUI? Please read this article: [Jack of all trades, master of none. Why Boostrap Admin Templates suck.](https://medium.com/@lukaszholeczek/jack-of-all-trades-master-of-none-5ea53ef8a1f#.7eqx1bcd8)
 
-Vue Black Dashboard features over 16 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in color, that you can easily modify using SASS files. You will save a lot of time going from prototyping to full-functional code because all elements are implemented.
-We thought about everything, so this dashboard comes with 2 versions, Dark Mode and Light Mode.
+**This is not just another Admin Template.** It goes way beyond hitherto admin templates thanks to:
 
-We are very excited to share this dashboard with you and we look forward to hearing your feedback!
+- Wonderful styling delivered by bootstrap compatible css library [CoreUI](https://coreui.io/docs/3.0-beta/),
+- Dedicated [component library](https://coreui.io/vue/docs/),
+- Dedicated vue tooling libraries ([coreui-vue-chartjs](https://coreui.io/vue/docs/components/charts), [coreui-icons-vue](https://github.com/coreui/coreui-icons-vue)),
+- Over 500 [free svg icons](https://coreui.io/icons) consistent with our styling,
+- Transparent code and file structure
+- Possibility of extension to [pro version](https://coreui.io/vue) which offers even more!
 
+CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
 
-## Table of Contents
+**NOTE:** Please remember to star this project to get new versions updates of this template.
 
+### Demo
 
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
+A fully functional demo is available at [CoreUI](http://coreui.io/vue/)
 
+### Table of Contents
 
-## Demo
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Our other products](#our-other-products)
+- [Community](#community)
+- [Community Projects](#community-projects)
+- [License](#copyright-and-license)
+- [Support CoreUI Development](#support-coreui-development)
 
-- [Start page](https://demos.creative-tim.com/vue-black-dashboard)
-- [User profile page](https://demos.creative-tim.com/vue-black-dashboard/#/profile)
-- [Tables page ](https://demos.creative-tim.com/vue-black-dashboard/#/table-list)
-- [Maps Page](https://demos.creative-tim.com/vue-black-dashboard/#/maps)
-- [Notifications page](https://demos.creative-tim.com//vue-black-dashboard/#/notifications)
+### Installation
 
-[View More](https://demos.creative-tim.com/vue-black-dashboard).
+#### Clone repo
 
+``` bash
+# clone the repo
+$ git clone https://github.com/coreui/coreui-free-vue-admin-template.git CoreUI-Vue
 
-## Quick start
+# go into app's directory
+$ cd CoreUI-Vue
 
-- Clone the repo: `git clone https://github.com/creativetimofficial/vue-black-dashboard.git`.
-- [Download from Github](https://github.com/creativetimofficial/vue-black-dashboard/archive/master.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/vue-black-dashboard).
-
-
-## Documentation
-The documentation for the Vue Black Dashboard is hosted at our [website](https://demos.creative-tim.com/vue-black-dashboard/documentation).
-
-
-## File Structure
-Within the download you'll find the following directories and files:
-
+# install app's dependencies
+$ npm install
 ```
-|-- Vue Black Dashboard
-    |-- .babelrc  
-    |-- .env
-    |-- .eslintrc
-    |-- .gitattributes
-    |-- .gitignore
-    |-- CHANGELOG.md
-    |-- CONTRIBUTING.md
-    |-- LICENSE.md
-    |-- README.md
-    |-- package.json
-    |-- vue.config.js
-    |-- src
-        |-- App.vue
-        |-- i18n.js
-        |-- main.js
-        |-- assets
-        |   |-- css
-        |   |   |-- nucleo-icons.css
-        |   |-- demo
-        |   |   |-- demo.css
-        |   |-- fonts
-        |   |   |-- nucleo.eot
-        |   |   |-- nucleo.ttf
-        |   |   |-- nucleo.woff
-        |   |   |-- nucleo.woff2
-        |   |-- sass
-        |       |-- black-dashboard.scss
-        |       |-- black-dashboard
-        |           |-- bootstrap
-        |           |-- custom
-        |           |-- plugins
-        |-- components
-        |   |-- BaseAlert.vue
-        |   |-- BaseButton.vue
-        |   |-- BaseCheckbox.vue
-        |   |-- BaseDropdown.vue
-        |   |-- BaseNav.vue
-        |   |-- BaseTable.vue
-        |   |-- CloseButton.vue
-        |   |-- Modal.vue
-        |   |-- NavbarToggleButton.vue
-        |   |-- index.js
-        |   |-- Cards
-        |   |   |-- Card.vue
-        |   |   |-- StatsCard.vue
-        |   |-- Charts
-        |   |   |-- BarChart.js
-        |   |   |-- LineChart.js
-        |   |   |-- config.js
-        |   |   |-- utils.js
-        |   |-- Inputs
-        |   |   |-- BaseInput.vue
-        |   |-- NotificationPlugin
-        |   |   |-- Notification.vue
-        |   |   |-- Notifications.vue
-        |   |   |-- index.js
-        |   |-- SidebarPlugin
-        |       |-- SideBar.vue
-        |       |-- SidebarLink.vue
-        |       |-- index.js
-        |-- directives
-        |   |-- click-ouside.js
-        |-- layout
-        |   |-- dashboard
-        |       |-- Content.vue
-        |       |-- ContentFooter.vue
-        |       |-- DashboardLayout.vue
-        |       |-- MobileMenu.vue
-        |       |-- SidebarSharePlugin.vue
-        |       |-- TopNavbar.vue
-        |-- locales
-        |   |-- ar.json
-        |   |-- en.json
-        |-- pages
-        |   |-- Dashboard.vue
-        |   |-- Icons.vue
-        |   |-- Maps.vue
-        |   |-- NotFoundPage.vue
-        |   |-- Notifications.vue
-        |   |-- Profile.vue
-        |   |-- TableList.vue
-        |   |-- Typography.vue
-        |   |-- Dashboard
-        |   |   |-- TaskList.vue
-        |   |   |-- UserTable.vue
-        |   |-- Notifications
-        |   |   |-- NotificationTemplate.vue
-        |   |-- Profile
-        |       |-- EditProfileForm.vue
-        |       |-- UserCard.vue
-        |-- plugins
-        |   |-- RTLPlugin.js
-        |   |-- blackDashboard.js
-        |   |-- globalComponents.js
-        |   |-- globalDirectives.js
-        |   |-- liveDemo.js
-        |-- router
-            |-- index.js
-            |-- routes.js
+
+#### Usage
+
+``` bash
+# serve with hot reload at localhost:8080
+npm run serve
+
+# build for production with minification
+npm run build
+
+# run linter
+npm run lint
+
+# run unit tests
+npm run test:unit
+
+# run e2e tests
+npm run test:e2e
 
 ```
 
+For a detailed explanation on how things work, check out the [Vue CLI Guide](https://cli.vuejs.org/guide/).
 
-## Browser Support
+### Documentation
 
-At present, we officially aim to support the last two versions of the following browsers:
+CoreUI tools documentation:
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+- Components documentation: [CoreUI Vue library](https://coreui.io/vue/docs)
+- Styles documentation: [CoreUI styles](https://coreui.io/docs/3.0-beta/)
+- Icons documentation: [CoreUI Icons](http://coreui.io/icons)
 
+### Bugs and feature requests
 
+Have a bug or a feature request? [Please open a new issue](https://github.com/coreui/coreui-free-vue-admin-template/issues).
 
-## Reporting Issues
+### Contributing
 
-We use GitHub Issues as the official bug tracker for the Vue Black Dashboard. Here are some advices for our users that want to report an issue:
+Please read through our [contributing guidelines](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-1. Make sure that you are using the latest version of the Vue Black Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+### Versioning
 
+For transparency into our release cycle and in striving to maintain backward compatibility,CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-## Technical Support or Questions
+See [the Releases section of our project](https://github.com/coreui/coreui-free-vue-admin-template/releases) for changelogs for each release version.
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
+### Our other products
 
+CoreUI is built on top of Bootstrap 4 and supports popular frameworks.
 
-## Licensing
+#### Free version products
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com/)
+* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
+* [CoreUI Free Angular Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
+* [CoreUI Free Laravel Admin Template](https://github.com/coreui/coreui-free-laravel-admin-template)
+* [CoreUI Free React.js Admin Template](https://github.com/coreui/coreui-free-react-admin-template)
+* [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
+* [CoreUI Free Vue.js + Laravel Admin Template](https://github.com/coreui/coreui-free-vue-laravel-admin-template)
 
-- Licensed under MIT (https://github.com/creativetimofficial/vue-black-dashboard/issues/blob/master/LICENSE.md)
+#### Pro version products
 
+* 💪  [CoreUI Pro Bootstrap Admin Template](https://coreui.io/pro/)
+* 💪  [CoreUI Pro Angular Admin Template](https://coreui.io/pro/angular)
+* 💪  [CoreUI Pro Laravel Admin Template](https://coreui.io/pro/laravel)
+* 💪  [CoreUI Pro React Admin Template](https://coreui.io/pro/react)
+* 💪  [CoreUI Pro Vue Admin Template](https://coreui.io/pro/vue)
+* 💪  [CoreUI Pro Vue + Laravel Admin Template](https://coreui.io/pro/vue-laravel)
 
+## CoreUI PRO Vue.js Admin Templates
 
-## Useful Links
+| Default Theme | Legacy Theme | Dark Layout |
+| --- | --- | --- |
+| [![CoreUI Pro Bootstrap Admin Template](https://coreui.io/images/mockups/mockup_3_1_default.png)](https://coreui.io/pro/vue/) | [![CoreUI Pro Bootstrap Admin Template](https://coreui.io/images/mockups/mockup_3_1_legacy.png)](https://coreui.io/pro/vue/)| [![CoreUI Pro Bootstrap Admin Template](https://coreui.io/images/mockups/mockup_3_1_dark.png)](https://coreui.io/pro/vue/)
 
-- [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
+## Community
 
-##### Social Media
+Get updates on CoreUI's development and chat with the project maintainers and community members.
 
-Twitter: <https://twitter.com/CreativeTim>
+- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
+- Read and subscribe to [CoreUI Blog](https://coreui.ui/blog/).
 
-Facebook: <https://www.facebook.com/CreativeTim>
+### Community Projects
 
-Dribbble: <https://dribbble.com/creativetim>
+Some of projects created by community but not maintained by CoreUI team.
 
-Google+: <https://plus.google.com/+CreativetimPage>
+- [NuxtJS + Vue CoreUI](https://github.com/muhibbudins/nuxt-coreui)
+- [Colmena](https://github.com/colmena/colmena)
 
-Instagram: <https://instagram.com/creativetimofficial>
+## Copyright and license
+
+Copyright 2020 creativeLabs Łukasz Holeczek. Code released under [the MIT license](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/LICENSE).
+There is only one limitation - you cannot re-distribute the `CoreUI` as stock nor if you modify the `CoreUI`. In the past we faced some problems with persons who tried to sell `CoreUI` based templates.
+
+## Support CoreUI Development
+
+CoreUI is an MIT licensed open source project and completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by buying [PRO version](https://coreui.io/pro/).
